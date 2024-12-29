@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Board</title>
+    <!-- link stylesheet -->
+    <link rel="stylesheet" href="gameboard.css">
+</head>
+<body>
+    <div class="game-container">
+        <!-- shows title -->
+        <h1>Guess Who Labs</h1>
+        <!-- shows text indicating who's turn it is -->
+        <p id="turnIndicator">Your Turn</p>
+        <!-- main board made up of card components -->
+        <div class="board">
+            <!-- create a 4x4 board of 16 cards 
+            and give each card a data id -->
+            <div class="card" data-id="1"></div>
+            <div class="card" data-id="2"></div>
+            <div class="card" data-id="3"></div>
+            <div class="card" data-id="4"></div>
+            <div class="card" data-id="5"></div>
+            <div class="card" data-id="6"></div>
+            <div class="card" data-id="7"></div>
+            <div class="card" data-id="8"></div>
+            <div class="card" data-id="9"></div>
+            <div class="card" data-id="10"></div>
+            <div class="card" data-id="11"></div>
+            <div class="card" data-id="12"></div>
+            <div class="card" data-id="13"></div>
+            <div class="card" data-id="14"></div>
+            <div class="card" data-id="15"></div>
+            <div class="card" data-id="16"></div>
+        </div>
+        <!-- container for question input -->
+        <div class="input-area">
+            <!-- input area for question -->
+            <input type="text" id="questionInput" placeholder="Ask a question..." />
+            <!-- button to send question to other player -->
+            <button id="questionButton">Submit</button>
+        </div>
+    </div>
+    <!-- link gameboard js file -->
+    <script src="gameboard.js"></script>
+</body>
+</html>

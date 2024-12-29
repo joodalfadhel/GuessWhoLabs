@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    width: 400px;
+}
+
+h1 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#turnIndicator {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #534caf;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.card {
+    padding-top: 100%; 
+    background-color: #a2adad;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.card:hover {
+    background-color: #afb6b6;
+}
+
+input{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #4c4eaf;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6263ac;
+}
